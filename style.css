@@ -1,0 +1,77 @@
+body{
+    margin:0;
+
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+h1{ 
+    font-size: 50px;
+    font-family: 'Piedra', cursive;
+}
+.name-highlight{
+    color: red;
+}
+.title-highlight{
+    color: red;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.mid-banner{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.textbox{
+    font-size: 18px;
+    font-family: cursive;
+}
+.half-width{
+    width:40%;
+    float: left ;
+    margin-left: 5%;
+    padding-left:2%;
+}
+.half-width img{
+    width: 100%;
+   
+}
+.link-btn{
+    text-decoration: none;
+    background-color: seagreen;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 700;
+
+}
+.blogs{
+    box-shadow: 10px 5px 20px greenyellow ;
+    border-radius: 15px;
+     height: 50%;
+}
+.expe-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+#full-stack-left{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon,red,tomato);
+    border-image-slice: 1;
+    background-color: white;
+}
+#full-stack-right{
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg, green, yellow, green);
+
+    border-image-slice: 1;
+}
+footer p{
+    font-size: 12px;
+    text-align: center;
+}
